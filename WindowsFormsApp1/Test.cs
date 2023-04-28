@@ -15,10 +15,9 @@ namespace WindowsFormsApp1
         // Підтягуємо масив з запитаннями з класу Questions
         string[] questions = Questions.questions;
 
-        int answer = 5;
         // Створюємо масив для зберігання відповідей користувача
         int[] answers = new int[60];
-        int j;
+        int j, answer;
         string name;
         // Кнопка "так"
         private void Yes_Click(object sender, EventArgs e)
